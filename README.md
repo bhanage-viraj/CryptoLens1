@@ -38,9 +38,7 @@ CryptoLens empowers users to make informed cryptocurrency investment decisions t
 
 ### 🎨 Personalization
 - ⭐ Customizable watchlist with drag-and-drop ordering
-- 💎 Favorite coins highlighting
-- 🔔 Personalized price alerts
-- 🎭 Custom theme options
+
 
 ## 🚀 Getting Started
 
