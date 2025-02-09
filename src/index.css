@@ -1,0 +1,54 @@
+/* CSS Variables for Dark/Light Theme */
+:root {
+  --primary-color: #3B82F6;
+  --background-dark: #111827;
+  --card-dark: #1F2937;
+  --text-dark: #F9FAFB;
+  --border-dark: #374151;
+  --hover-dark: #374151;
+  
+  --background-light: #F3F4F6;
+  --card-light: #FFFFFF;
+  --text-light: #111827;
+  --border-light: #E5E7EB;
+  --hover-light: #E5E7EB;
+}
+
+/* Global Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light mode class to switch themes */
+body.light-mode {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+/* Links Styling */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* App Container */
+.App {
+  min-height: 100vh;
+  padding: 1rem;
+}
