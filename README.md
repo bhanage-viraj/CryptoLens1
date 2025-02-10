@@ -99,15 +99,7 @@ The application will be available at `http://localhost:3000`
 2. Drag and drop coins to **reorder** them
 
 
-## 🏗️ Technical Architecture
 
-- **Frontend**: React.js with TypeScript
-- **State Management**: Redux Toolkit
-- **Charts**: TradingView Technical Analysis
-- **Styling**: Tailwind CSS
-- **API Integration**: Axios with REST APIs
-- **Wallet Integration**: Web3.js
-- **Data Provider**: CoinGecko API
 
 
 
